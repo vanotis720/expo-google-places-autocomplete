@@ -1,4 +1,4 @@
-# expo-google-places-autocomplete
+# rn-expo-google-places-autocomplete
 
 Google Places Autocomplete for React Native. This library uses the native Google Places SDK for iOS and Android.
 
@@ -9,7 +9,7 @@ Google Places Autocomplete for React Native. This library uses the native Google
 # Installation
 
 ```sh
-npx expo install expo-google-places-autocomplete
+npx expo install rn-expo-google-places-autocomplete
 ```
 
 For bare React Native projects, you must ensure that you have [installed and configured the `expo` package](https://docs.expo.dev/bare/installing-expo-modules/) before continuing.
@@ -31,7 +31,7 @@ Create a an API key [here](https://developers.google.com/maps/documentation/plac
 ## Usage
 
 ```ts
-import { GooglePlacesAutocomplete } from "expo-google-places-autocomplete";
+import { GooglePlacesAutocomplete } from "rn-expo-google-places-autocomplete";
 
 // ...
 const onSearchError = React.useCallback((error: PlacesError) => {
@@ -59,7 +59,7 @@ The library exposes three fucntions that you can use to build your own autocompl
 Start by initializing the SDK with your API key.
 
 ```ts
-import PlacesAutocomplete from "expo-google-places-autocomplete";
+import PlacesAutocomplete from "rn-expo-google-places-autocomplete";
 
 // ...
 
